@@ -13,7 +13,7 @@
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.16.10)",
       "icon": null,
       "version": "1.0.0",
-      "address": "play.gameofarkadia.com",
+      "address": "play.gameofarkadia.net",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
