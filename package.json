@@ -1,0 +1,14 @@
+{
+  "name": "distrib-launcher-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static web server for Distrib-launcher assets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:pages": "node scripts/build-pages.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
