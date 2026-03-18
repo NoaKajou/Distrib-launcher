@@ -13,7 +13,7 @@
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.16.10)",
       "icon": null,
       "version": "1.0.0",
-      "address": "play.gameofarkadia.net",
+      "address": "play.gameofarkadia.com",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -30,7 +30,7 @@
           "artifact": {
             "size": 1387408,
             "MD5": "239d59118dec4324672b3d9e9d75efef",
-            "url": "http://localhost:8080/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
+            "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/net/fabricmc/fabric-loader/0.16.10/fabric-loader-0.16.10.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 2862,
                 "MD5": "0e7e6602bfe97704faf0ba0a23f6ae71",
-                "url": "http://localhost:8080/repo/versions/1.21.11-fabric-0.16.10/1.21.11-fabric-0.16.10.json"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/versions/1.21.11-fabric-0.16.10/1.21.11-fabric-0.16.10.json"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 126093,
                 "MD5": "e2cdd32d198ad31427d298eee9d39d8d",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm/9.7.1/asm-9.7.1.jar"
               }
             },
             {
@@ -60,7 +60,7 @@
               "artifact": {
                 "size": 35126,
                 "MD5": "4cd9e7178dfb85371bba3077e40cd514",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-analysis/9.7.1/asm-analysis-9.7.1.jar"
               }
             },
             {
@@ -70,7 +70,7 @@
               "artifact": {
                 "size": 73459,
                 "MD5": "8344aea3c8b7d707e9d35a62710e77c9",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-commons/9.7.1/asm-commons-9.7.1.jar"
               }
             },
             {
@@ -80,7 +80,7 @@
               "artifact": {
                 "size": 51939,
                 "MD5": "e85029f613b6469989cc7cf53fe06b74",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-tree/9.7.1/asm-tree-9.7.1.jar"
               }
             },
             {
@@ -90,7 +90,7 @@
               "artifact": {
                 "size": 94519,
                 "MD5": "36d373a9cd6cad9b35db9f984c6b4bbb",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-util/9.7.1/asm-util-9.7.1.jar"
               }
             },
             {
@@ -100,7 +100,7 @@
               "artifact": {
                 "size": 1494834,
                 "MD5": "991ca8be2c408fe19eb64014d8a18243",
-                "url": "http://localhost:8080/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar"
               }
             },
             {
@@ -110,7 +110,7 @@
               "artifact": {
                 "size": 797685,
                 "MD5": "54a87ea75e373bc39b2d36df201231ea",
-                "url": "http://localhost:8080/repo/lib/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/net/fabricmc/intermediary/1.21.11/intermediary-1.21.11.jar"
               }
             }
           ]
