@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "<LINK TO RSS FEED>",
+  "rss": "https://rss-bridge.org/bridge01/?action=display&bridge=MinecraftBridge&category=News&format=Atom",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
