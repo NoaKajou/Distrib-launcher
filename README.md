@@ -36,7 +36,3 @@ npm run build:pages
 ```
 
 Sortie générée dans `public/` puis déployée par GitHub Actions.
-
-## Important
-
-GitHub Pages sert du **statique** (fichiers), pas un backend dynamique. Si tu veux un vrai serveur backend (Node/Express) en continu, il faut un hébergeur type Render, Fly.io, Railway ou VPS.
