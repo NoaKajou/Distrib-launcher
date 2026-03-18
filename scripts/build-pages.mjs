@@ -24,11 +24,17 @@ async function ensureDir(dir) {
 async function copyPath(relativePath) {
   const source = path.join(root, relativePath);
   const destination = path.join(outDir, relativePath);
+  try {
+    await fs.access(source);
+  } catch {
+    return false;
+  }
   await fs.cp(source, destination, { recursive: true, force: true });
+  return true;
 }
 
-function generateIndexHtml() {
-  const links = pathsToPublish
+function generateIndexHtml(publishedPaths) {
+  const links = publishedPaths
     .map((item) => `<li><a href="./${item}">${item}</a></li>`)
     .join('\n');
 
@@ -56,9 +62,16 @@ function generateIndexHtml() {
 await removeDir(outDir);
 await ensureDir(outDir);
 
+const publishedPaths = [];
+
 for (const relativePath of pathsToPublish) {
-  await copyPath(relativePath);
+  const copied = await copyPath(relativePath);
+  if (copied) {
+    publishedPaths.push(relativePath);
+  } else {
+    console.warn(`Skipping missing path: ${relativePath}`);
+  }
 }
 
-await fs.writeFile(path.join(outDir, 'index.html'), generateIndexHtml(), 'utf8');
+await fs.writeFile(path.join(outDir, 'index.html'), generateIndexHtml(publishedPaths), 'utf8');
 console.log('Static site built in ./public');
