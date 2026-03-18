@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://rss-bridge.org/bridge01/?action=display&bridge=MinecraftBridge&category=News&format=Atom",
+  "rss": "https://github.com/NoaKajou/Minecraft-rss-flux/blob/main/.github/workflows/update-rss.yml",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
