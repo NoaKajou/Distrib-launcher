@@ -21,7 +21,7 @@
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
       "mainServer": true,
-      "autoconnect": true,
+      "autoconnect": false,
       "modules": [
         {
           "id": "net.fabricmc:fabric-loader:0.18.4",
@@ -238,6 +238,16 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.15@jar",
+          "name": "Melody",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 227886,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/melody_fabric_1.0.15_MC_1.21.11.jar",
+            "MD5": "8b7f0aef2acc3c59d67f79809608b5a8"
           }
         },
         {
