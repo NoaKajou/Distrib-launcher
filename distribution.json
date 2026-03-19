@@ -429,9 +429,9 @@
           "name": "title_screen_layout.txt",
           "type": "File",
           "artifact": {
-            "size": 45639,
+            "size": 45651,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/customization/title_screen_layout.txt",
-            "MD5": "ab9075f5b34e660ae5157c3d95914862",
+            "MD5": "708501571647c89b3f77ae98710ce33f",
             "path": "config/fancymenu/customization/title_screen_layout.txt"
           }
         },
