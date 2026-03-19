@@ -11,7 +11,7 @@
       "id": "GameOfArkadia-1.21.11",
       "name": "GameOfArkadia (Minecraft 1.21.11)",
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.18.4)",
-      "icon": null,
+      "icon": "build.png",
       "version": "1.0.0",
       "address": "play.gameofarkadia.net",
       "minecraftVersion": "1.21.11",
