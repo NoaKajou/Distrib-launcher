@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://launchercontent.mojang.com/v2/javaPatchNotes.json",
+  "rss": "https://NoaKajou.github.io/Minecraft-rss-flux/rss.rss",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
