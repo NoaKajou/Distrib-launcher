@@ -11,16 +11,16 @@
       "id": "GameOfArkadia-1.21.11",
       "name": "GameOfArkadia (Minecraft 1.21.11)",
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.18.4)",
-      "icon": "https://raw.githubusercontent.com/NoaKajou/Distrib-launcher/refs/heads/main/build.png",
+      "icon": null,
       "version": "1.0.0",
-      "address": "play.gameofarkadia.net",
+      "address": "localhost:25565",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
         "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      "mainServer": true,
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -139,6 +139,16 @@
           }
         },
         {
+          "id": "de.keksuccino:drippyloadingscreen:3.1.1@jar",
+          "name": "Drippy Loading Screen",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 281928,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
+            "MD5": "8042232dcf944b08df4738e135fcc93e"
+          }
+        },
+        {
           "id": "io.github.kosmx.emotes:emotecraft:3.2.0-b.build.143@jar",
           "name": "Emotecraft",
           "type": "FabricMod",
@@ -169,6 +179,16 @@
             "size": 7642216,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
             "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d"
+          }
+        },
+        {
+          "id": "it.crystalnest:fancy_entity_renderer:0.5.4@jar",
+          "name": "Fancy Entity Renderer",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 392986,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fancy-entity-renderer-fabric-1.21.11-0.5.4.jar",
+            "MD5": "946a168ab6d8864377bda3311dfd50da"
           }
         },
         {
@@ -336,6 +356,171 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "bouton_1.png",
+          "name": "bouton_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 137342,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/assets/bouton_1.png",
+            "MD5": "6162147f420392beb11de9083c40afcb",
+            "path": "config/fancymenu/assets/bouton_1.png"
+          }
+        },
+        {
+          "id": "button_2.png",
+          "name": "button_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 84388,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/assets/button_2.png",
+            "MD5": "556c45e62ab14544f6e8d244ace2bbbb",
+            "path": "config/fancymenu/assets/button_2.png"
+          }
+        },
+        {
+          "id": "music.wav",
+          "name": "music.wav",
+          "type": "File",
+          "artifact": {
+            "size": 38665806,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/assets/music.wav",
+            "MD5": "6d34fe9739ba7dd08bcc085bee0b2f08",
+            "path": "config/fancymenu/assets/music.wav"
+          }
+        },
+        {
+          "id": "title.png",
+          "name": "title.png",
+          "type": "File",
+          "artifact": {
+            "size": 121886,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/assets/title.png",
+            "MD5": "4fb5c8fb4d10f47f8641337aa901fc45",
+            "path": "config/fancymenu/assets/title.png"
+          }
+        },
+        {
+          "id": "audio_element_controller_metas.json",
+          "name": "audio_element_controller_metas.json",
+          "type": "File",
+          "artifact": {
+            "size": 109,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/audio_element_controller_metas.json",
+            "MD5": "20437e79a8fdeb16fa00b8c7c44de3c8",
+            "path": "config/fancymenu/audio_element_controller_metas.json"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 128,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "b6410ec2d9f79f1b3a269222d03934f1",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 45639,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "ab9075f5b34e660ae5157c3d95914862",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout_1.txt",
+          "name": "title_screen_layout_1.txt",
+          "type": "File",
+          "artifact": {
+            "size": 27180,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/customization/title_screen_layout_1.txt",
+            "MD5": "ff029ee74ba346cc97423e55059bf4a8",
+            "path": "config/fancymenu/customization/title_screen_layout_1.txt"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 198,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "43a5ab1a30249caf7dafc2f7ad4b0ed9",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2143,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/options.txt",
+            "MD5": "ded33682830f2165b16dd478fc41a481",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 6218,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "df90c4d23315ff6e63e15541b3031197",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 6220,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "21a51e7a223939c9fae277fcd02cf4fc",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
           }
         },
         {
