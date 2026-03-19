@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://rss.app/feeds/jocev57f2bAvAG3C.xml",
+  "rss": "<LINK TO RSS FEED>",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -114,6 +114,16 @@
               }
             }
           ]
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.10.2@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1964676,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/skinlayers3d-fabric-1.10.2-mc1.21.11.jar",
+            "MD5": "ac380a66e4f37663713ee1d50d48a94d"
+          }
         }
       ]
     }
