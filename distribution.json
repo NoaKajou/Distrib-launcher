@@ -126,6 +126,16 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-api:0.141.3+1.21.11@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2412693,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fabric-api-0.141.3+1.21.11.jar",
+            "MD5": "f7e723a1649302a0a6923022a7596f1a"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.10.6+mc1.21.11@jar",
           "name": "Iris",
           "type": "FabricMod",
