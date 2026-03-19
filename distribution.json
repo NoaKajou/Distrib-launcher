@@ -13,7 +13,6 @@
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.16.10)",
       "icon": null,
       "version": "1.0.0",
-      "address": "play.gameofarkadia.net",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -116,6 +115,29 @@
           ]
         },
         {
+          "id": "squeek.appleskin:appleskin:3.0.8+mc1.21.11@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 180107,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/appleskin-fabric-mc1.21.11-3.0.8.jar",
+            "MD5": "e725606e8b0ae1c83ade7cfd0aea9e73"
+          }
+        },
+        {
+          "id": "generated.fabricmod:iris:1.10.6+mc1.21.11@jar",
+          "name": "Iris",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2805791,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/iris-fabric-1.10.6+mc1.21.11.jar",
+            "MD5": "1fad457f15178da18d7b2309b23d64a0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "dev.tr7zw.skinlayers:skinlayers3d:1.10.2@jar",
           "name": "3d-Skin-Layers",
           "type": "FabricMod",
@@ -123,6 +145,42 @@
             "size": 1964676,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/skinlayers3d-fabric-1.10.2-mc1.21.11.jar",
             "MD5": "ac380a66e4f37663713ee1d50d48a94d"
+          }
+        },
+        {
+          "id": "net.caffeinemc.mods:sodium:0.8.6+mc1.21.11@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1869752,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/sodium-fabric-0.8.6+mc1.21.11%20(1).jar",
+            "MD5": "4044f71541bdadabef0cb720a9ecc589"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:25.3.10@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2151166,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/xaerominimap-fabric-1.21.11-25.3.10.jar",
+            "MD5": "c74fd7631ac37d94a80a0d2d196a28f9"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "xaero.map:xaeroworldmap:1.40.11@jar",
+          "name": "Xaero's World Map",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1434362,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/xaeroworldmap-fabric-1.21.11-1.40.11.jar",
+            "MD5": "713d131a03abaf8ff3f40729e87a4add"
+          },
+          "required": {
+            "value": false
           }
         }
       ]
