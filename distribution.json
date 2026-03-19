@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://github.com/NoaKajou/Minecraft-rss-flux/blob/main/.github/workflows/update-rss.yml",
+  "rss": "https://www.minecraftforum.net/news.rss",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
