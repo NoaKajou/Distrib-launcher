@@ -13,7 +13,7 @@
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.18.4)",
       "icon": null,
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "play.gameofarkadia.net",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -139,6 +139,19 @@
           }
         },
         {
+          "id": "io.github.kosmx.emotes:emotecraft:3.2.0-b.build.143@jar",
+          "name": "Emotecraft",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1121970,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/emotecraft-fabric-for-MC1.21.11-3.2.0-b.build.143.jar",
+            "MD5": "96072c62e9749629eafd1baced151f4b"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
           "id": "generated.fabricmod:fabric-api:0.141.3+1.21.11@jar",
           "name": "Fabric API",
           "type": "FabricMod",
@@ -149,6 +162,26 @@
           }
         },
         {
+          "id": "generated.fabricmod:fabric-language-kotlin:1.13.9+kotlin.2.3.10@jar",
+          "name": "Fabric Language Kotlin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7642216,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fabric-language-kotlin-1.13.9+kotlin.2.3.10.jar",
+            "MD5": "5a82c29fbbfdd3acbb9da9229ae0e32d"
+          }
+        },
+        {
+          "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.21.11@jar",
+          "name": "Fzzy Config",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2370785,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fzzy_config-0.7.6+1.21.11.jar",
+            "MD5": "5fad2ec227066c950a08d4bb73a1923e"
+          }
+        },
+        {
           "id": "generated.fabricmod:iris:1.10.6+mc1.21.11@jar",
           "name": "Iris",
           "type": "FabricMod",
@@ -156,6 +189,65 @@
             "size": 2805791,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/iris-fabric-1.10.6+mc1.21.11.jar",
             "MD5": "1fad457f15178da18d7b2309b23d64a0"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:justzoom:2.1.3@jar",
+          "name": "Just Zoom",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 246487,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/justzoom_fabric_2.1.3_MC_1.21.11.jar",
+            "MD5": "afb73027097943101b5f536eb2c54edd"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.9.18@jar",
+          "name": "Konkrete",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 771623,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/konkrete_fabric_1.9.18_MC_1.21.11.jar",
+            "MD5": "13a0bbba48a016a3ca7ac55ac1612027"
+          }
+        },
+        {
+          "id": "dev.schmarrn:lighty:3.1.3@jar",
+          "name": "Lighty",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 91694,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/lighty-fabric-3.1.3+1.21.11.jar",
+            "MD5": "f1ee22120e081401a4d82c3c1040144c"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.zigythebird.playeranim:player_animation_library:1.1.6+mc.1.21.11@jar",
+          "name": "Player Animation Library",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1153316,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/PlayerAnimationLibFabric-1.1.6+mc.1.21.11.jar",
+            "MD5": "22472956d013d585b4eb6e1ac2d9ebe3"
+          }
+        },
+        {
+          "id": "com.misterpemodder:shulkerboxtooltip:5.2.16+1.21.11@jar",
+          "name": "Shulker Box Tooltip",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 389259,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/shulkerboxtooltip-fabric-5.2.16+1.21.11.jar",
+            "MD5": "2db6b45c2162251659ca8b96aa938232"
           },
           "required": {
             "value": false
@@ -182,6 +274,19 @@
             "size": 1869752,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/sodium-fabric-0.8.6+mc1.21.11.jar",
             "MD5": "4044f71541bdadabef0cb720a9ecc589"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.theendercore:visible_toggle_sprint:1.9.3+1.21.9@jar",
+          "name": "VisibleToggleSprint",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 42838,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/visible_toggle_sprint-1.9.3+1.21.9-fabric.jar",
+            "MD5": "ec872794066ae0e8cf92f4665e6ee26d"
           },
           "required": {
             "value": false
