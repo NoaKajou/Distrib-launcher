@@ -121,8 +121,21 @@
           "type": "FabricMod",
           "artifact": {
             "size": 180107,
-            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/appleskin-fabric-mc1.21.11-3.0.8.jar",
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/appleskin-fabric-mc1.21.11-3.0.8.jar",
             "MD5": "e725606e8b0ae1c83ade7cfd0aea9e73"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:21.11.153@jar",
+          "name": "Cloth Config v20",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1148427,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/cloth-config-21.11.153-fabric.jar",
+            "MD5": "9de770889c2b19445f57f881e4f7d6f8"
           }
         },
         {
@@ -154,8 +167,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1964676,
-            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/skinlayers3d-fabric-1.10.2-mc1.21.11.jar",
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/skinlayers3d-fabric-1.10.2-mc1.21.11.jar",
             "MD5": "ac380a66e4f37663713ee1d50d48a94d"
+          },
+          "required": {
+            "value": false
           }
         },
         {
@@ -164,8 +180,11 @@
           "type": "FabricMod",
           "artifact": {
             "size": 1869752,
-            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/sodium-fabric-0.8.6+mc1.21.11%20(1).jar",
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/sodium-fabric-0.8.6+mc1.21.11.jar",
             "MD5": "4044f71541bdadabef0cb720a9ecc589"
+          },
+          "required": {
+            "value": false
           }
         },
         {
