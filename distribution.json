@@ -172,6 +172,16 @@
           }
         },
         {
+          "id": "de.keksuccino:fancymenu:3.8.4@jar",
+          "name": "FancyMenu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4490883,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fancymenu_fabric_3.8.4_MC_1.21.11.jar",
+            "MD5": "01d1cd50d90cb1b94ed9a706614ee0b0"
+          }
+        },
+        {
           "id": "me.fzzyhmstrs:fzzy_config:0.7.6+1.21.11@jar",
           "name": "Fzzy Config",
           "type": "FabricMod",
