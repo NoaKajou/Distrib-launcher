@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "rss": "https://www.minecraftforum.net/news.rss",
+  "rss": "https://launchercontent.mojang.com/v2/javaPatchNotes.json",
   "discord": {
     "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
     "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
