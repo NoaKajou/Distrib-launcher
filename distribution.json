@@ -13,6 +13,7 @@
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.16.10)",
       "icon": null,
       "version": "1.0.0",
+      "address": "localhost:25565",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -181,6 +182,17 @@
           },
           "required": {
             "value": false
+          }
+        },
+        {
+          "id": "ComplementaryReimagined_r5.7.1.zip",
+          "name": "ComplementaryReimagined_r5.7.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 522970,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/files/shaderpacks/ComplementaryReimagined_r5.7.1.zip",
+            "MD5": "bc5f557bb6844d27e7b7891170544ea9",
+            "path": "shaderpacks/ComplementaryReimagined_r5.7.1.zip"
           }
         }
       ]
