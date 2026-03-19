@@ -3,7 +3,7 @@
   "meta": {
     "version": "1.0.0",
     "name": "GameOfArkadia (Minecraft 1.21.11)",
-    "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.16.10)",
+    "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.18.4)",
     "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
     "address": "localhost:25565",
     "discord": {
@@ -15,7 +15,7 @@
     "autoconnect": false
   },
   "fabric": {
-    "version": "0.16.10"
+    "version": "0.18.4"
   },
   "untrackedFiles": []
 }
