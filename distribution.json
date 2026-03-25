@@ -11,9 +11,7 @@
       "id": "GameOfArkadia-1.21.11",
       "name": "GameOfArkadia (Minecraft 1.21.11)",
       "description": "GameOfArkadia Running Minecraft 1.21.11 (Fabric v0.18.4)",
-      "icon": "https://raw.githubusercontent.com/NoaKajou/Distrib-launcher/refs/heads/main/build.png",
       "version": "1.0.0",
-      "address": "play.gameofarkadia.net",
       "minecraftVersion": "1.21.11",
       "discord": {
         "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
@@ -136,6 +134,19 @@
             "size": 1148427,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/cloth-config-21.11.153-fabric.jar",
             "MD5": "9de770889c2b19445f57f881e4f7d6f8"
+          }
+        },
+        {
+          "id": "com.seibel:distanthorizons:2.4.5-b@jar",
+          "name": "Distant Horizons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 25622435,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/optionalon/DistantHorizons-2.4.5-b-1.21.11-fabric-neoforge.jar",
+            "MD5": "4e0d67ac7e39408eab644c42ed7b745f"
+          },
+          "required": {
+            "value": false
           }
         },
         {
