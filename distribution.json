@@ -152,16 +152,6 @@
           }
         },
         {
-          "id": "de.keksuccino:drippyloadingscreen:3.1.1@jar",
-          "name": "Drippy Loading Screen",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 281928,
-            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/drippyloadingscreen_fabric_3.1.1_MC_1.21.11.jar",
-            "MD5": "8042232dcf944b08df4738e135fcc93e"
-          }
-        },
-        {
           "id": "io.github.kosmx.emotes:emotecraft:3.2.0-b.build.143@jar",
           "name": "Emotecraft",
           "type": "FabricMod",
@@ -202,16 +192,6 @@
             "size": 392986,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fancy-entity-renderer-fabric-1.21.11-0.5.4.jar",
             "MD5": "946a168ab6d8864377bda3311dfd50da"
-          }
-        },
-        {
-          "id": "de.keksuccino:fancymenu:3.8.4@jar",
-          "name": "FancyMenu",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 4490883,
-            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/fancymenu_fabric_3.8.4_MC_1.21.11.jar",
-            "MD5": "01d1cd50d90cb1b94ed9a706614ee0b0"
           }
         },
         {
@@ -291,6 +271,16 @@
             "size": 1153316,
             "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/PlayerAnimationLibFabric-1.1.6+mc.1.21.11.jar",
             "MD5": "22472956d013d585b4eb6e1ac2d9ebe3"
+          }
+        },
+        {
+          "id": "noobtrieu.reimaginedintro:reimagined-intro:1.0.0@jar",
+          "name": "Reimagined Intro",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 477837465,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/GameOfArkadia-1.21.11/fabricmods/required/reimagined-intro-1.0.0.jar",
+            "MD5": "029066a0d7b4b77d84ed4337015139f2"
           }
         },
         {
