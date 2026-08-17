@@ -10,7 +10,7 @@
     {
       "id": "fraude-1.20.1",
       "name": "fraude (Minecraft 1.20.1)",
-      "description": "fraude Running Minecraft 1.20.1",
+      "description": "fraude Running Minecraft 1.20.1 (Fabric v0.19.3)",
       "icon": null,
       "version": "1.0.0",
       "address": "localhost:25565",
@@ -22,7 +22,650 @@
       },
       "mainServer": false,
       "autoconnect": false,
-      "modules": []
+      "modules": [
+        {
+          "id": "net.fabricmc:fabric-loader:0.19.3",
+          "name": "Fabric (fabric-loader)",
+          "type": "Fabric",
+          "artifact": {
+            "size": 1976502,
+            "MD5": "881e0e9f53a11b9ad468b47afd678bfd",
+            "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-fabric-0.19.3",
+              "name": "Fabric (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 2862,
+                "MD5": "a51c382c203721606a8bdf802cee7776",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/versions/1.20.1-fabric-0.19.3/1.20.1-fabric-0.19.3.json"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.10.1",
+              "name": "Fabric (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126151,
+                "MD5": "9cb72080438acf27f2607002e1444a7b",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.10.1",
+              "name": "Fabric (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35140,
+                "MD5": "6dd9011ec87f65e4b2e14e938c4118e4",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.10.1",
+              "name": "Fabric (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 74840,
+                "MD5": "8eee0b1bdd046baf472eb83dd5e6bb44",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.10.1",
+              "name": "Fabric (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51958,
+                "MD5": "62541e1dc62331408ef31317555bf4fa",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.10.1",
+              "name": "Fabric (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 95628,
+                "MD5": "d0892ecb209867805e7d2418e5dc6c42",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:sponge-mixin:0.17.3+mixin.0.8.7",
+              "name": "Fabric (sponge-mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1540060,
+                "MD5": "87002a5fc9faa1543bf4204f8d5876fb",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar"
+              }
+            },
+            {
+              "id": "net.fabricmc:intermediary:1.20.1",
+              "name": "Fabric (intermediary)",
+              "type": "Library",
+              "artifact": {
+                "size": 573365,
+                "MD5": "3f4768ac751cac3418266d1d7aa15f55",
+                "url": "https://noakajou.github.io/Distrib-launcher/repo/lib/net/fabricmc/intermediary/1.20.1/intermediary-1.20.1.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "generated.fabricmod:ad_astra_more_structures:1.0.0@jar",
+          "name": "Ad Astra: More Structures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 597030,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/ad_astra_more_structures-1.20.1-fabric.jar",
+            "MD5": "ebd5ca7692057c61505ed4f69bb4aea7"
+          }
+        },
+        {
+          "id": "earth.terrarium.adastra:ad_astra:1.15.20@jar",
+          "name": "Ad Astra",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 7317556,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/ad_astra-fabric-1.20.1-1.15.20.jar",
+            "MD5": "b3bab8ad397dc79a013093f63c4df860"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.2+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1097240,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/appleskin-fabric-mc1.20.1-2.5.2.jar",
+            "MD5": "0f5aeb43d6949ddad88449ad29884b2b"
+          }
+        },
+        {
+          "id": "dev.architectury.utils:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 585207,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/architectury-9.2.14-fabric.jar",
+            "MD5": "2ae04e0dad60a390031ee341e0b2ab45"
+          }
+        },
+        {
+          "id": "mod.azure:azurelib:3.0.21@jar",
+          "name": "AzureLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1346216,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/azurelib-fabric-1.20.1-3.0.21.jar",
+            "MD5": "43557857a47781f906592e0efb176c80"
+          }
+        },
+        {
+          "id": "de.cadentem:cave_dweller:1.4.0@jar",
+          "name": "Cave Dweller",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1898275,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/Better%20Cave%20Dweller-1.20.1-white-eyes-fabric.jar",
+            "MD5": "158bc97d16b7db0265f56ea96dd49ff4"
+          }
+        },
+        {
+          "id": "earth.terrarium:botarium:2.3.4@jar",
+          "name": "Botarium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 188388,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/botarium-fabric-1.20.1-2.3.4.jar",
+            "MD5": "7e7ab50854a3084771346ebc260c91b5"
+          }
+        },
+        {
+          "id": "tschipp.carryon:carryon:2.1.2.7@jar",
+          "name": "Carry On",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 443033,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/carryon-fabric-1.20.1-2.1.2.7.jar",
+            "MD5": "c050f3d0934bbd8893fe2353eab906bb"
+          }
+        },
+        {
+          "id": "dzwdz.chat_heads:chat_heads:0.15.4@jar",
+          "name": "Chat Heads",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 84598,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/chat_heads-0.15.4-fabric-1.20.jar",
+            "MD5": "2f9777e50745f8cf8f929aea3ca624a0"
+          }
+        },
+        {
+          "id": "me.shedaniel.autoconfig.example:cloth-config:11.1.136@jar",
+          "name": "Cloth Config v11",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1172214,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/cloth-config-11.1.136-fabric.jar",
+            "MD5": "45d8bada7797af61d1f5543313b1f9f0"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.8.1+build.1744-mc1.20.1@jar",
+          "name": "Create",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 32189889,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/create-fabric-6.0.8.1+build.1744-mc1.20.1.jar",
+            "MD5": "0adc5619a8dc366b0185dc1e2f89d35e"
+          }
+        },
+        {
+          "id": "net.cristellib:cristellib:1.1.5@jar",
+          "name": "Cristel Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 431581,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/cristellib-1.1.5-fabric.jar",
+            "MD5": "18f48c190dd29c43b5d7b10c5c243111"
+          }
+        },
+        {
+          "id": "com.cupboard:cupboard:1.20.1-3.9@jar",
+          "name": "Cupboard",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 34132,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/cupboard-fabric-1.20.1-3.9.jar",
+            "MD5": "d402331fd324dca5ff574411d79e531f"
+          }
+        },
+        {
+          "id": "dev.multision:dreamshift:0.1.4.1@jar",
+          "name": "Dreamshift",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 510344223,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/dreamshift-0.1.4.1-fabric.jar",
+            "MD5": "de0eea2c9999bbbe183cedf8fdefc058"
+          }
+        },
+        {
+          "id": "generated.fabricmod:essential-container:1.0.0@jar",
+          "name": "Essential-container",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 53003710,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/Essential_1-4-1-1_fabric_1-20-1.jar",
+            "MD5": "79fbab7eaaac8e368ecda09a64cd93c7"
+          }
+        },
+        {
+          "id": "generated.fabricmod:fabric-api:0.92.11+1.20.1@jar",
+          "name": "Fabric API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2137144,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/fabric-api-0.92.11+1.20.1.jar",
+            "MD5": "480888e4128874e4be052b0e7ee81697"
+          }
+        },
+        {
+          "id": "io.github.lucaargolo:seasons:2.3+1.20@jar",
+          "name": "Fabric Seasons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 428398,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/fabric-seasons-2.3+1.20.jar",
+            "MD5": "d504c1cc6905f29ee01309734699f066"
+          }
+        },
+        {
+          "id": "io.github.lucaargolo:seasonsdelightcompat:1.0-1.3.9@jar",
+          "name": "Fabric Seasons: Delight Compat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 39100,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/fabric-seasons-delight-1.3.9-compat-1.0.jar",
+            "MD5": "2b48e0c9b4b78b275ed90b2de7d898ff"
+          }
+        },
+        {
+          "id": "io.github.lucaargolo:seasonsterralithcompat:1.0-2.3.7@jar",
+          "name": "Fabric Seasons: Terralith Compat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49473,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/fabric-seasons-terralith-2.3.7-compat-1.0.jar",
+            "MD5": "014fe29ab57fc69b607e525c5ddf5561"
+          }
+        },
+        {
+          "id": "whocraft.tardis_refined:tardis_refined:2.1.7@jar",
+          "name": "TARDIS Refined",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 22096279,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/fabric-tardis_refined-mc1.20.1-v2.1.7.jar",
+            "MD5": "defed68f3441f48a9081940b9eb09f92"
+          }
+        },
+        {
+          "id": "vectorwing.farmersdelight:farmersdelight:1.20.1-2.5.5+refabricated@jar",
+          "name": "Farmer's Delight",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 6089454,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/FarmersDelight-1.20.1-2.5.5+refabricated.jar",
+            "MD5": "dccd30530501d91cba625f66c5491ebe"
+          }
+        },
+        {
+          "id": "generated.fabricmod:watching:1.9.2@jar",
+          "name": "From The Fog",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4749752,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/From-The-Fog-1.20-v1.9.2-Forge-Fabric.jar",
+            "MD5": "50a095dcb6dfd46143133a62f50d36ee"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.7.1.2@jar",
+          "name": "GeckoLib 4",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1042863,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/geckolib-fabric-1.20.1-4.7.1.2.jar",
+            "MD5": "39817f59719d49b84597786f68b6d63e"
+          }
+        },
+        {
+          "id": "mods.cybercat:gigeresque:0.5.72@jar",
+          "name": "Gigeresque",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3011292,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/gigeresque-1.20.1-0.5.72.jar",
+            "MD5": "802f6e3d2b79b5544a3a1b8e95115a39"
+          }
+        },
+        {
+          "id": "qouteall.imm_ptl.peripheral.platform_specific:immersive_portals:5.2.3@jar",
+          "name": "Immersive Portals",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2831578,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/immersive-portals-5.2.3-mc1.20.1-fabric.jar",
+            "MD5": "b23931a69dd0164fd6f18ba7e434fcaf"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.112@jar",
+          "name": "Just Enough Items",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1398098,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/jei-1.20.1-fabric-15.20.0.112.jar",
+            "MD5": "8a84279275a4dd9a686bc6cfd5ee9c37"
+          }
+        },
+        {
+          "id": "generated.fabricmod:lootintegrations_yungs:${version}@jar",
+          "name": "Lootintegrations_yungs Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5991,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/lootintegrations_yungs-1.6.jar",
+            "MD5": "cb47d9fc34cc82bab4d754af88be227d"
+          }
+        },
+        {
+          "id": "com.lootintegrations:lootintegrations:1.20.1-4.7@jar",
+          "name": "Loot integration Mod",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 49238,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/lootintegrations-fabric-1.20.1-4.7.jar",
+            "MD5": "4129a6586096235bcc98e92753364639"
+          }
+        },
+        {
+          "id": "net.kikoz:mcwbridges:3.1.2@jar",
+          "name": "Macaw's Bridges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 672903,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/mcw-bridges-3.1.2-mc1.20.1fabric.jar",
+            "MD5": "5465a911363fc466da49489457e2c4b1"
+          }
+        },
+        {
+          "id": "com.terraformersmc:modmenu:7.2.2@jar",
+          "name": "Mod Menu",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 721366,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/modmenu-7.2.2.jar",
+            "MD5": "2629511a2d3b141d9f2a24dc9685637e"
+          }
+        },
+        {
+          "id": "com.teamresourceful.resourcefulconfig.web.server:resourcefulconfig:2.1.3@jar",
+          "name": "Resourcefulconfig",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 135078,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/resourcefulconfig-fabric-1.20.1-2.1.3.jar",
+            "MD5": "720878464dc76b75681072f025eae1aa"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 431646,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/resourcefullib-fabric-1.20.1-2.1.29.jar",
+            "MD5": "9d4e1e80304edc8a672d0173c46c7514"
+          }
+        },
+        {
+          "id": "generated.fabricmod:pv_ad_astra_structures:1.2@jar",
+          "name": "Ad Astra Structures",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 402321,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/Simple%20Structure%20Ad%20Astra%201.20.1%201.2.jar",
+            "MD5": "edb8184a19bd9cec4a010900ba74c69e"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.11.2@jar",
+          "name": "3d-Skin-Layers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1988537,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/skinlayers3d-fabric-1.11.2-mc1.20.1.jar",
+            "MD5": "8266405aec4a5705ffb4d648e825803a"
+          }
+        },
+        {
+          "id": "net.tslat:smartbrainlib:1.15@jar",
+          "name": "SmartBrainLib",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 359760,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/SmartBrainLib-fabric-1.20.1-1.15.jar",
+            "MD5": "91ab518d6de31c22e092e53bda448adb"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods:sodium:0.5.13+mc1.20.1@jar",
+          "name": "Sodium",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 971552,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/sodium-fabric-0.5.13+mc1.20.1.jar",
+            "MD5": "76e0349865f91f315aae087a6e88a84a"
+          }
+        },
+        {
+          "id": "terrablender.core:terrablender:3.0.1.10@jar",
+          "name": "TerraBlender",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 322357,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/TerraBlender-fabric-1.20.1-3.0.1.10.jar",
+            "MD5": "ecdc32930106b6cd487d7efd19fe5932"
+          }
+        },
+        {
+          "id": "generated.fabricmod:terralith:2.5.4@jar",
+          "name": "Terralith",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 3156901,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/Terralith_1.20.x_v2.5.4.jar",
+            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
+          }
+        },
+        {
+          "id": "generated.fabricmod:t_and_t:1.12@jar",
+          "name": "Towns and Towers",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2864275,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/Towns-and-Towers-1.12-Fabric+Forge.jar",
+            "MD5": "237a2186d2482856f67c638c06489fb8"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.20.1-2.6.21@jar",
+          "name": "Simple Voice Chat",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 5274560,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/voicechat-fabric-1.20.1-2.6.21.jar",
+            "MD5": "c7fded12669b53e5e481dae871e5b856"
+          }
+        },
+        {
+          "id": "dev.jeryn.angels:weeping_angels:46.1.5@jar",
+          "name": "Weeping Angels",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 4707148,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/weeping_angels-46.1.5-fabric.jar",
+            "MD5": "446e55bb07e5f021c949dcf0ab23906d"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:26.4.2@jar",
+          "name": "Xaero's Minimap",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2228035,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/xaerominimap-fabric-1.20.1-26.4.2.jar",
+            "MD5": "6be2c6fb0f40ec835f33ab11a7f542af"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Fabric-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1396331,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsApi-1.20-Fabric-4.0.6.jar",
+            "MD5": "25624d7157f4b60827c4b6d06c0b8fc0"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.20-Fabric-3.0.3@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1063786,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterDesertTemples-1.20-Fabric-3.0.3.jar",
+            "MD5": "7dd4fec6982f0946575a4caab6248060"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.20-Fabric-4.0.4@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 944170,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterDungeons-1.20-Fabric-4.0.4.jar",
+            "MD5": "8e324c6508dd74edf1e4705d90139da2"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.20-Fabric-2.0.6@jar",
+          "name": "YUNG's Better End Island",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 517369,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterEndIsland-1.20-Fabric-2.0.6.jar",
+            "MD5": "1e64398f1d2ec1ea4049de391b51683d"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.20-Fabric-2.0.5@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 947293,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterJungleTemples-1.20-Fabric-2.0.5.jar",
+            "MD5": "b34e5608a93b6a2aa043e4c49f36aff7"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Fabric-4.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 621495,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterMineshafts-1.20-Fabric-4.0.4.jar",
+            "MD5": "88e49e369f9fd20958c87138328b8c3c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.20-Fabric-2.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 760974,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterNetherFortresses-1.20-Fabric-2.0.6.jar",
+            "MD5": "aefeee128bbae518186bd3d73c59c74a"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.20-Fabric-3.0.4@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 1165832,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterOceanMonuments-1.20-Fabric-3.0.4.jar",
+            "MD5": "06c32808f70eaa9f41bcc01c09509229"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.20-Fabric-4.0.3@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 611598,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterStrongholds-1.20-Fabric-4.0.3.jar",
+            "MD5": "b0ca22280c7b931a7d3d9be028d3093c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterwitchhuts:1.20-Fabric-3.0.3@jar",
+          "name": "YUNG's Better Witch Huts",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 307196,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBetterWitchHuts-1.20-Fabric-3.0.3.jar",
+            "MD5": "afa25b703d976cde3d62c8f8d8a980a0"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsbridges:1.20-Fabric-4.0.3@jar",
+          "name": "YUNG's Bridges",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 266481,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsBridges-1.20-Fabric-4.0.3.jar",
+            "MD5": "3f195c1585696c0f0cb9d3e4507b1fb2"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsextras:1.20-Fabric-4.0.3@jar",
+          "name": "YUNG's Extras",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 342639,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsExtras-1.20-Fabric-4.0.3.jar",
+            "MD5": "ed7d061debff5354386c203e945b2531"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsmenutweaks:1.20.1-Fabric-1.0.2@jar",
+          "name": "YUNG's Menu Tweaks",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 282505,
+            "url": "https://noakajou.github.io/Distrib-launcher/servers/fraude-1.20.1/fabricmods/required/YungsMenuTweaks-1.20.1-Fabric-1.0.2.jar",
+            "MD5": "cf513654508f34344e6d82397e010efa"
+          }
+        }
+      ]
     },
     {
       "id": "GameOfArkadia-1.21.11",
